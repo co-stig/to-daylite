@@ -1,0 +1,20 @@
+# Add a contact to the group
+PATCH https://api.marketcircle.net/v1/groups/2000 HTTP/1.1
+Accept: application/json
+Content-Type: application/json
+Authorization: Bearer {{token}}
+Content-Length: 502
+
+{
+  "contacts": [
+    {
+      "contact": "/v1/contacts/1001"
+    },
+    {
+      "contact": "/v1/contacts/2001"
+    },
+    {
+      "contact": "/v1/contacts/3001"
+    }
+  ]
+}

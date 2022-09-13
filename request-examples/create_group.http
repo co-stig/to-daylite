@@ -1,0 +1,12 @@
+# Create new group
+POST https://api.marketcircle.net/v1/groups HTTP/1.1
+Accept: application/json
+Content-Type: application/json
+Authorization: Bearer {{token}}
+Content-Length: 502
+
+{
+  "name": "Test group 1",
+  "owner": "/v1/users/1000",
+  "creator": "/v1/users/1000"
+}

@@ -1,0 +1,3 @@
+GET https://secure.directmailmac.com/api/v2/projects/{{dm_doc}} HTTP/1.1
+Authorization: {{dm_auth}}
+Accept: application/json; charset=utf-8

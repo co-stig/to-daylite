@@ -1,0 +1,3 @@
+GET https://secure.directmailmac.com/api/v2/projects/{{dm_doc}}/reports/B96E7776-3566-4705-BC2D-A07C427D036F/links/1D24D0EB-32CE-4BBE-A95D-2C726ECA74F5/clicks HTTP/1.1
+Authorization: {{dm_auth}}
+Accept: application/json; charset=utf-8

@@ -1,0 +1,4 @@
+# Create new group
+DELETE https://api.marketcircle.net/v1/groups/1000 HTTP/1.1
+Accept: application/json
+Authorization: Bearer {{token}}
